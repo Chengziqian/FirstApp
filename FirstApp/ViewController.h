@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UITextField *userInput;
+@property (weak, nonatomic) IBOutlet UILabel *userOutput;
+- (IBAction)setOutput:(id)sender;
 @end
 

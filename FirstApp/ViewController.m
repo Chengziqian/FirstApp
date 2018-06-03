@@ -28,10 +28,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
-- (IBAction)ChooseBarAction:(id)sender {
-}
-- (IBAction)GetColorAction:(id)sender {
+- (IBAction)setOutput:(id)sender {
+    self.userOutput.text  = self.userInput.text;
 }
 @end
